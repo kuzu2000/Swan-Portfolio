@@ -58,13 +58,17 @@ export const data = [
         id: 1,
         title: 'E-SHOPEE',
         category: 'MERN',
-        img: './src/static/Blog.PNG'
+        img: './ELECTRONIC-ECOMMERCE.PNG',
+        demo: 'https://electronic-ecommerce-alpha.vercel.app/',
+        github: 'https://github.com/kuzu2000/electronic-ecommerce'
     },
     {
         id: 2,
         title: 'Pinterest',
         category: 'MERN',
-        img: './src/static/teamcigarette.PNG'
+        img: './MERN-PINTEREST.PNG',
+        demo: 'https://mern-pinterest.vercel.app/',
+        github: 'https://github.com/kuzu2000/mern-pinterest'
     },
     {
         id: 3,

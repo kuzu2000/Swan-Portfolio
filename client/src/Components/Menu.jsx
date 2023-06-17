@@ -2,7 +2,7 @@ const Menu = ({ items }) => {
     return (
       <div className='myProjects'>
         {items.map((menuItem) => {
-          const { id, title, img, category } = menuItem;
+          const { id, title, img, category, demo, github } = menuItem;
           return (
             <article key={id} className='myProject'>
               <img src={img} alt={title} className='photo' />
@@ -11,8 +11,8 @@ const Menu = ({ items }) => {
                   <h3>{title}</h3>
                   <p>{category}</p>
                   <div className="links">
-                    <a href="https://google.com" rel="noreferrer" target="_blank">Demo</a>
-                    <a href="https://google.com" rel="noreferrer" target="_blank">Source</a>
+                    <a href={demo} rel="noreferrer" target="_blank">Demo</a>
+                    <a href={github} rel="noreferrer" target="_blank">Source</a>
                   </div>
                 </header>
               </div>
