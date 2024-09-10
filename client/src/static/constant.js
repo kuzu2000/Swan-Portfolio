@@ -51,6 +51,10 @@ export const skills = [
         id: 13,
         skill: 'devicon-laravel-plain colored'
     },
+    {
+        id: 14,
+        skill: 'devicon-python-plain colored'
+    }
 ]
 
 export const data = [
