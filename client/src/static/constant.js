@@ -54,6 +54,10 @@ export const skills = [
     {
         id: 14,
         skill: 'devicon-python-plain colored'
+    },
+    {
+        id: 15,
+        skill : 'devicon-socketio-original colored'
     }
 ]
 
@@ -79,5 +83,13 @@ export const data = [
         title: 'World News',
         category: 'Laravel',
         img: './src/static/Blog.PNG'
-    }
+    },
+     {
+        id: 4,
+        title: 'Quiz-app',
+        category: 'MERN',
+        img: './QUIZ-APP.PNG',
+        demo: 'https://swan-quiz-app.vercel.app/',
+        github: 'https://github.com/kuzu2000/quiz-app'
+    },
 ]
